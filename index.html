@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Abhay Deep Singh, IRMS – Dynamic Profile</title>
+  <title>Abhay Deep Singh IRMS – Dynamic Profile</title>
   <meta name="description" content="A dynamic single-file bio page that renders details about an IAS officer from a JSON object. Edit the data object to update the page." />
   <!-- Tailwind CSS CDN -->
   <script src="https://cdn.tailwindcss.com"></script>
@@ -50,7 +50,7 @@
         <div class="mt-4 grid grid-cols-2 gap-3 text-sm">
           <div class="p-3 rounded-xl bg-slate-50 border border-slate-200">
             <div class="text-slate-500">Service</div>
-            <div id="service" class="font-semibold"></div>
+            <div id="service" class="font-semiboabhayld"></div>
           </div>
           <div class="p-3 rounded-xl bg-slate-50 border border-slate-200">
             <div class="text-slate-500">Cadre</div>
@@ -138,13 +138,13 @@
     // EDIT THIS OBJECT to update the entire page in one place.
     // ***********************************************************
     const profile = {
-      name: "Abhay Deep Singh, IRMS(Traffic)",
+      name: "Abhay Deep Singh IRMS(Traffic)",
       tagline: "Indian Railways Management Service(Traffic) officer noted for administrative integrity and public service.",
       service: "IRMS(T)",
       cadre: "NR",
       batch: "—",
       currentRole: "—",
-      photo: "", // placeholder image; replace with a proper portrait URL if available
+      photo: <img src="abhay.jpg" alt="Abhay">, // placeholder image; replace with a proper portrait URL if available
       bio: `This page showcases a dynamic, single-file biography for an IAS officer. Replace this text with an objective summary (education, career highlights, domains handled, and key contributions). Keep language neutral and verifiable.`,
       badges: ["Public Administration", "Governance", "Transparency"],
       tags: ["Civil Services", "Policy", "Ethics", "Good Governance"],
@@ -155,7 +155,8 @@
         "Known For": "Administrative integrity, governance reforms",
       },
       education: [
-        "Add degrees and institutions here (e.g., B.Tech, M.Phil, Ph.D)",
+        "B.Tech- Computer Science and Engineering"
+        "UP PCS 2018 Officer",
       ],
       awards: [
         "List notable recognitions here (e.g., public administration awards)",
@@ -291,5 +292,6 @@
   </script>
 </body>
 </html>
+
 
 
